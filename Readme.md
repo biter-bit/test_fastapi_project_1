@@ -28,45 +28,31 @@ ChatGPT, Midjourney, Kandinsky, Gemini, Dall-E, StableDiffusion, и многим
 1. Клонировать репозиторий: `git clone https://git@github.com:antomin/tgm_bot.git`
 2. Перейти в корень проекта: `cd <путь проекта>`
 3. Установить python 3.10.12 и pip 22.0.2:
+
    ```
    sudo apt update
    sudo apt install python3.10
    ```
-4. Создать виртуальное окружение и активировать его:
+   
+5. Создать виртуальное окружение и активировать его:
+
    ```
    python -m venv <название окружения>
    source <название окружения>/bin/activate
    ```
-5. Установить зависимости: `pip install -r requirements.txt`
-6. Добавить файл .env в корень проекта по структуре файла example.env и внести данные в него.
-7. Запустить бот командой: `python manage.py start_bot`
+   
+6. Установить зависимости: `pip install -r requirements.txt`
+7. Добавить файл .env в корень проекта по структуре файла example.env и внести данные в него.
+8. Запустить бот командой: `python manage.py start_bot`
 
 ### Структура проекта
 
-my_project/
-│
-├── README.md
-├── requirements.txt
-├── setup.py
-├── LICENSE
-│
-├── docs/
-│ └── documentation.md
-│
-├── src/
-│ ├── init.py
-│ ├── main.py
-│ └── utils/
-│ ├── init.py
-│ └── helpers.py
-│
-├── tests/
-│ ├── init.py
-│ └── test_main.py
-│
-└── data/
-├── input_data/
-│ └── input.txt
-└── output_data/
-└── output.txt
+- `README.md`: файл с описанием проекта.
+- `requirements.txt`: файл с перечислением зависимостей проекта.
+- `setup.py`: скрипт для установки пакета Python.
+- `LICENSE`: файл с лицензией проекта (например, MIT, Apache, GPL).
+- `docs/`: директория с документацией проекта.
+- `src/`: директория с исходным кодом проекта.
+- `tests/`: директория с модулями тестирования.
+- `data/`: директория для хранения данных.
 
