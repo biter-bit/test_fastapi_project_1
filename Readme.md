@@ -43,30 +43,30 @@ ChatGPT, Midjourney, Kandinsky, Gemini, Dall-E, StableDiffusion, и многим
 
 ### Структура проекта
 
-- accounts_app
-- api_app
-- apiv2_app
-- blog_app
-- core
-- dialog_app
-- fixtures
-- logs
-- main_app
-- media
-- payments_app
-- reports_app
-- services
-- static
-- templates
-- tgbot_app
-- utils
-- .env
-- .gitignore
-- accounts.txt
-- manage.py
-- example.py
-- README.md
-- requirements.txt
-- service_bot.py
-- temp
+my_project/
+│
+├── README.md
+├── requirements.txt
+├── setup.py
+├── LICENSE
+│
+├── docs/
+│   └── documentation.md
+│
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_main.py
+│
+└── data/
+    ├── input_data/
+    │   └── input.txt
+    └── output_data/
+        └── output.txt
 
