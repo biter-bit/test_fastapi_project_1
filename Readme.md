@@ -6,7 +6,7 @@ ChatGPT, Midjourney, Kandinsky, Gemini, Dall-E, StableDiffusion, и многим
 ## Что умеет?
 
 - Генерировать текст - ChatGPT4, Gemini 1.0 PRO, Yandex, Claude 3
-- Генерировать фото - Midjourney v6, Kandinsky, Dalle-3, Stable
+- Генерировать фото - Midjourney v6, Kandinsky, Dalle-2, Dalle-3, Stable Diffusion
 - Генерировать работы для учебы - Дипломы, Рефераты, Курсовые, Эссе
 - Обрабатывать файлы - формата txt или word
 - Решать задачи по фото - с помощью ChatGPT 4 Vision
@@ -17,8 +17,56 @@ ChatGPT, Midjourney, Kandinsky, Gemini, Dall-E, StableDiffusion, и многим
 Ссылка на бота - https://t.me/chatgpt_tgm_bot/
 Ссылка на сайт - https://xn--e1aajcsinjk.com/
 
-## Установка
+## Зависимости
 
-1. Склонируйте репозиторий:
+1. python 3.10.12
+2. pip 22.0.2
+3. Зависимости из requirements.txt
 
-2. 
+### Установка Linux
+
+1. Клонировать репозиторий: `git clone https://git@github.com:antomin/tgm_bot.git`
+2. Перейти в корень проекта: `cd <путь проекта>`
+3. Установить python 3.10.12 и pip 22.0.2:
+   ```
+   sudo apt update
+   sudo apt install python3.10
+   ```
+4. Создать виртуальное окружение и активировать его:
+   ```
+   python -m venv <название окружения>
+   source <название окружения>/bin/activate
+   ```
+5. Установить зависимости: `pip install -r requirements.txt`
+6. Добавить файл .env в корень проекта по структуре файла example.env и внести данные в него.
+7. Запустить бот командой: `python manage.py start_bot`
+
+### Структура проекта
+
+- accounts_app
+- api_app
+- apiv2_app
+- blog_app
+- core
+- dialog_app
+- fixtures
+- logs
+- main_app
+- media
+- payments_app
+- reports_app
+- services
+- static
+- templates
+- tgbot_app
+- utils
+- .env
+- .gitignore
+- accounts.txt
+- manage.py
+- example.py
+- README.md
+- requirements.txt
+- service_bot.py
+- temp
+
