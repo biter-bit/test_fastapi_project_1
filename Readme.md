@@ -51,22 +51,22 @@ my_project/
 ├── LICENSE
 │
 ├── docs/
-│   └── documentation.md
+│ └── documentation.md
 │
 ├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   └── utils/
-│       ├── __init__.py
-│       └── helpers.py
+│ ├── init.py
+│ ├── main.py
+│ └── utils/
+│ ├── init.py
+│ └── helpers.py
 │
 ├── tests/
-│   ├── __init__.py
-│   └── test_main.py
+│ ├── init.py
+│ └── test_main.py
 │
 └── data/
-    ├── input_data/
-    │   └── input.txt
-    └── output_data/
-        └── output.txt
+├── input_data/
+│ └── input.txt
+└── output_data/
+└── output.txt
 
