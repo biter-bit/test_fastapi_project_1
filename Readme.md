@@ -16,6 +16,7 @@ ChatGPT, Midjourney, Kandinsky, Gemini, Dall-E, StableDiffusion, и многим
 
 Ссылка на бота - https://t.me/chatgpt_tgm_bot/
 Ссылка на сайт - https://xn--e1aajcsinjk.com/
+Cсылка на админку - https://xn--e1aajcsinjk.com/admin/
 
 ## Зависимости
 
@@ -47,6 +48,10 @@ ChatGPT, Midjourney, Kandinsky, Gemini, Dall-E, StableDiffusion, и многим
 
 ### Структура проекта
 
+- `accounts_app`: приложение django по работе с пользователями
+- `accounts_app/migrations/`: расположены файлы миграций
+- `accounts_app/__init__.py`: файл инициализации пакета python
+- `accounts_app/admin.py`: файл для регистрации и настройки моделей в админке
 - `README.md`: файл с описанием проекта.
 - `requirements.txt`: файл с перечислением зависимостей проекта.
 - `setup.py`: скрипт для установки пакета Python.
